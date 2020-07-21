@@ -4,7 +4,7 @@ Not included PhosCloud, BitTorrent type ssh tunnel and transient key cryptograph
 
 The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
 
-Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate how the anonymous user may add a new comment, as displayed in figure 2.
+Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate how the anonymous user may add a new comment, as displayed in figure 2. The user keyed in the comment in a text box (textarea) with a red 'PHOS' button at the lower right corner. The comment 'July 21 1250 le quick browne foux' is inserted as the first comment after the main post.
 
 - Figure 1
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/reddit_post_load.png" width=600>
