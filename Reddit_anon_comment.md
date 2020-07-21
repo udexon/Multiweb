@@ -70,7 +70,7 @@ The GET parameter `r=data/log_fgc:_s:` is a Phoscript command, derived from the 
 
 - https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/insert_comment.py
 
-The first line of `insert_comment.py` is a Phoscript command that essentially performs the following steps:
+The first line of `insert_comment.py` is a Phoscript command that essentially performs the steps explained below. As with Forth like stack machines, each step (function word) utilizes (pops) items stored on the data stack as input and pushes the result back on to the stack. 
 
 ```py
 driver.get("http://phos.epizy.com/phos/get.php?
@@ -102,7 +102,7 @@ ON_ECHO_bv: set ECHO to ON
 
 ec: echo the result on stack, i.e. 'comment' in json
 
-c="+urllib.parse.quote(base64.b64encode(s1.encode())) s1 is link of the Reddit post, used as key in preg_grep() above
+c="+urllib.parse.quote(base64.b64encode(s1.encode())) s1 is the link of the Reddit post, used as search key in preg_grep() above
 ```
 
 Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
