@@ -1,8 +1,8 @@
 # Multiweb
 
-Imagine a global computer network whose primary traffic consists of billions of users accessing centralized clusters of servers owned by a handful of trillion dollars corporations.
+- Imagine a global computer network whose primary traffic consists of billions of users accessing centralized clusters of servers owned by a handful of trillion dollars corporations.
 
-Imagine computing power (instructions per second, volatile and non-volatile memory) are now so cheap that a new computer typically costs less than a meal. 
+- Imagine computing power (instructions per second, volatile and non-volatile memory) are now so cheap that a new computer typically costs less than a meal. 
 
 Why are these users' CPU power not better utilized?
 
@@ -10,9 +10,9 @@ What if the centralized computing model above can be changed to a distributed mo
 
 How can that be achieved?
 
-Om fact, the scenarios above are not imaginary. These are the realities of the World Wide Web today.
+In fact, the scenarios above are not imaginary. These are the realities of the World Wide Web today.
 
-We should like to introduce the terms uniweb and multiweb to distinguish these two types of computing model, i.e. 
+We would like to introduce the terms uniweb and multiweb to distinguish these two types of computing model, i.e. 
 
 - Uniweb: single source centralized web
 - Mulweb: multiple sources distributed web
