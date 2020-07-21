@@ -27,6 +27,20 @@ We shall describe the detailed mechanisms of how the above was achieved, before 
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/popup_command_after.png" width=600>
 
 
+2. As shown in lines 25 to 27 in `phos_comment_box.js`, the red 'PHOS' button will trigger an `alert()` window when pressed. We used this mechanism to notify the Python Selenium function `wait_alert()` as shown in figure 5, to retrieve the text entered by the user in the pop-up box, and store it via a HTTP POST web page in a remote PhosGraph server:
+
+- http://phos.epizy.com/phos/post_rc.php?r=&c=
+
+This website acts a prototype for our graph database server, hence the name PhosGraph.
+
+```js
+S[3].className='form-container btn'
+S[3].style.backgroundColor='red'
+S[3].onclick=function(){alert();}
+```
+
+- Figure 5
+<img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/add_comment.png" width=600>
 
 
 Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
