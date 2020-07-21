@@ -18,6 +18,10 @@ We would like to introduce the terms uniweb and multiweb to distinguish these tw
 - Mulweb: multiple sources distributed web
 
 
+The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
+
+:: rearrange subsequent sentences, which one comes first, second, next?
+
 (Raspberry Pi etc.)
 
 
@@ -27,7 +31,6 @@ This is a perhaps modest introduction to Multiweb, arguably the biggest breakthr
 
 Not included PhosCloud, BitTorrent type ssh tunnel and transient key cryptography + PhosGraph. Give Greeting with a Secret Phrase (GASP) article.
 
-The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
 
 Multiple sources multi processing. Single source restricts processing. Source of data is the bottleneck. 
 
