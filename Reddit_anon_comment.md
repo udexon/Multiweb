@@ -59,6 +59,45 @@ The GET parameter `r=data/log_fgc:_s:` is a Phoscript command, derived from the 
 
 `data/log` is the log file (text file) to be opened using the command `fgc:` which is mapped to PHP `file_get_contents()`.
 
-`s:` is a variant of Forth `.s` which display the variables on the stack. In this case, the whole `data/log` file is stored in a string variable on the stack `$S`.
+`s:` is a variant of Forth `.s` which displays the variables on the stack. In this case, the whole `data/log` file is stored in a string variable on the stack `$S`.
+
+4. Finally, the commands in `insert_comment.py` were executed, as shown in figure 2, to insert the comment retrieved from PhosGraph server as the first comment of the original post.
+
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/insert_comment.py
+
+The first line of `insert_comment.py` is a Phoscript command that essentially performs the following steps:
+
+```py
+driver.get("http://phos.epizy.com/phos/get.php?
+r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_
+pjs:_0_i:_jd:_comment_i:_ON_ECHO_bv:_ec:
+&c="+urllib.parse.quote(base64.b64encode(s1.encode())))
+
+data/log_fi: open data/log with file(), store in an array
+
+c_get: obtain the value of GET variable $_GET['c'], as defined below
+
+d64: perform base64 decode on $_GET['c']
+
+g: run preg_grep() over array initialized by file('data/log') above
+
+av: execute array_values() to convert the indices of preg_grep() results to 0 to N-1
+
+cx:_1_-_i: get the last line of preg_grep() results
+
+pjs: detect locations of multiple json(s) in the result
+
+0_i: get the first json
+
+jd: run json_decode()
+
+comment_i: get 'comment' in json
+
+ON_ECHO_bv: set ECHO to ON
+
+ec: echo the result on stack, i.e. 'comment' in json
+
+c="+urllib.parse.quote(base64.b64encode(s1.encode())) s1 is link of the Reddit post, used as key in preg_grep() above
+```
 
 Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
