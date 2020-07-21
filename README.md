@@ -23,6 +23,18 @@ We would like to introduce the terms uniweb and multiweb to distinguish these tw
 
 Distributed data first. Then distributed processing. 
 
+This is a perhaps modest introduction to Multiweb, arguably the biggest breakthrough since, built upon several incremental innovations ....
+
+Not included PhosCloud, BitTorrent type ssh tunnel and transient key cryptography + PhosGraph. Give Greeting with a Secret Phrase (GASP) article.
+
+The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
+
+Multiple sources multi processing. Single source restricts processing. Source of data is the bottleneck. 
+
+Distinguish user vs. client. User devices have improved tremendously in memory, storage and computing power ....
+
+Distributed processing not keeping up with availability of computing power and data (more devices, power, more data, more users are connected) because of Uniweb restrictions. 
+
 Web page composition with data from multiple sources using Python Selenium
 
 A new type of web browsing: multisource web (multiweb), vs. conventional single source web (Uniweb).
