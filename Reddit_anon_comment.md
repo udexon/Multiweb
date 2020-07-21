@@ -14,6 +14,18 @@ Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate 
 
 We shall describe the detailed mechanisms of how the above was achieved, before discussing various related issues.
 
+1. A pop-up text box (HTML textarea within a form) is added to the DOM of the HTML page, by executing the commands listed in the following file via the browser console, as shown in figure 3 and 4:
+
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/phos_comment_box.js
+
+
+- Figure 3
+<img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/popup_command_before.png" width=600>
+
+
+- Figure 4
+<img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/popup_command_after.png" width=600>
+
 
 
 
