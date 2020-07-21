@@ -12,4 +12,9 @@ Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate 
 - Figure 2
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/anon_comment_added.png" width=600>
 
+We shall describe the detailed mechanisms of how the above was achieved, before discussing various related issues.
+
+
+
+
 Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
