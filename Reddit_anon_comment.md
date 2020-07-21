@@ -48,6 +48,11 @@ This website acts a prototype for our graph database server, hence the name Phos
 - Figure 6
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/post_phosgraph.png" width=600>
 
+The Python Selenium code for figure 6 are given in the following files:
+
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/set_json.py
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/post_phosgraph.py
+
 - Figure 7
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/get_phosgraph.png" width=600>
 
