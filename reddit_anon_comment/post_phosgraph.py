@@ -1,0 +1,6 @@
+driver.switch_to.window(tab_phos)
+driver.get("http://phos.epizy.com/phos/post_rc.php?r=&c=")
+u_j=driver.find_element_by_xpath('//*[@id="json"]')
+u_j.send_keys(json.dumps(j))
+u_f=driver.find_element_by_name("form_json")
+u_f.submit()
