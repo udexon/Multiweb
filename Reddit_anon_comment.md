@@ -51,6 +51,14 @@ This website acts a prototype for our graph database server, hence the name Phos
 - Figure 7
 <img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/get_phosgraph.png" width=600>
 
-Figure 7 shows a portion of the text file used to store PhosGraph.
+3. Figure 7 shows a portion of the text file used to store PhosGraph, by executing the following command as a HTTP GET request:
+
+- http://phos.epizy.com/phos/get.php?r=data/log_fgc:_s:
+
+The GET parameter `r=data/log_fgc:_s:` is a Phoscript command, derived from the Forth programming language, in Reverse Polish Notation. It is parsed as underscore delimited token, resulting in `data/log fgc: s:`. 
+
+`data/log` is the log file (text file) to be opened using the command `fgc:` which is mapped to PHP `file_get_contents()`.
+
+`s:` is a variant of Forth `.s` which display the variables on the stack. In this case, the whole `data/log` file is stored in a string variable on the stack `$S`.
 
 Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
