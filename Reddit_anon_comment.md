@@ -1,6 +1,6 @@
 # Multiweb Demo: Reddit "Uncensorable" Anonymous Comments
 
-This is a perhaps modest introduction to Multiweb, arguably the biggest breakthrough since the invention of the World Wide Web itself, built upon several incremental innovations.
+This is a perhaps modest introduction to Multiweb, arguably the biggest breakthrough since the invention of the World Wide Web itself, built upon several incremental innovations, using Python Selenium to manipulate HTML DOM locally and storing anonymous user's comments in a third party graph database server.
 
 Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate how the anonymous user may add a new comment, as displayed in figure 2. The user keyed in the comment in a text box (textarea) with a red 'PHOS' button at the lower right corner. The comment 'July 21 1250 le quick browne foux' is inserted as the first comment after the main post.
 
