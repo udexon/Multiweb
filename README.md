@@ -79,7 +79,7 @@ Obviously a thorough analysis if the Chinese head of district government going l
 
 3. PhosPay can play a significant role in this as it can revolutionize online finance, facilitating borderless transactions by Investors from literally unknown corners of the Earth.
 
-In summary, we are not advocating Marxist style land ownership reforms via armed revolutions. However, thanks to the pervasiveness of Internet and technologies, we can facilitate land acquisition by affected individuals in a truly borderless, and ID-less world, thus fundamentally improve the livelihood of population much greater than any past Marxist revolutions may address.
+In summary, we are not advocating Marxist style land ownership reforms via armed revolutions. However, thanks to the pervasiveness of Internet and technologies, we can facilitate land acquisition by affected individuals in a truly borderless, and ID-less world, thus fundamentally improve the livelihood of populations much greater than any past Marxist revolutions may address.
 
 
 <hr>
