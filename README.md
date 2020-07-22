@@ -27,11 +27,11 @@ We demonstrate an almost trivial example of multiweb, where [anonymous comments 
 
 The fundamental components to build a multiweb have already existed for the long time:
 
-- transient key cryptography (established by Bitcoin and blockchain related projects)
+- transient key cryptography (established by Bitcoin and blockchain related projects) (PhosKey ID-less Messaging: [Greeting with a Secret Phrase (GASP)](https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md))
 - SSH tunnel (BitTorrent, Dark Net, Cryptocurrencies networks)
 - graph database
 
-These components just need to be integrated to create multiweb. In our own humble opinion, the most critical breakthrough lies in the application of transient key cryptography to create an ID-less graph database. This will then make SSH tunnel commercially viable, as individual users can then host their own data ON their own mobile or desktop devices, and begin to generate revenues from local businesses via [PhosPay](https://github.com/udexon/PhosPay), the most critical components of Phosway multiweb (click [here](https://github.com/udexon/PhosPay)). These will be the last hurdles to overcome and make it possible to turn every user device on Earth into a cloud server, ___literally inverting the original definition of cloud computing___.
+These components just need to be integrated to create multiweb. In our own humble opinion, the most critical breakthrough lies in the application of transient key cryptography to create an ID-less graph database. This will then make SSH tunnel commercially viable, as individual users can then host their own data ON their own mobile or desktop devices, and begin to generate revenues from local businesses via [PhosPay](https://github.com/udexon/PhosPay) (click [here](https://github.com/udexon/PhosPay)), the most critical components of [Phosway](https://github.com/udexon/Phosway) multiweb (click [here](https://github.com/udexon/Phosway)). These will be the last hurdles to overcome and make it possible to turn every user device on Earth into a cloud server, ___literally inverting the original definition of cloud computing___.
 
 Let us compare the Reddidt anonymous comment multiweb example to a Twitter user retweeting the same Reddit post. The latter may achieve a similar effect. However, if we generalize this scenario to social network Y sharing posts from social network X, we still arrive at the deadlock where the shared posts on social network X and Y are not searchable. Phosway multiweb then have all the necessary components to make such data searchable. It is a ___"universal super social network"___ which encompasses all other social networks.
 
