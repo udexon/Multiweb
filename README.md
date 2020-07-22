@@ -14,11 +14,8 @@ In fact, the scenarios above are not imaginary. These are the realities of the W
 
 We would like to introduce the terms uniweb and multiweb to distinguish these two types of computing model, i.e. 
 
-- Uniweb: single source centralized web
-- Mulweb: multiple sources distributed web
-
-
-The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
+- Uniweb: single source centralized web;
+- Multiweb: multiple sources distributed web.
 
 
 Ever since the birth of the World Wide Web, the http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established .... when? .... Users' computing power was much less, pre mobile age, compared to 2020.
@@ -72,9 +69,11 @@ Take the latest trend in China for example, where literally thousands of heads o
 
 Obviously a thorough analysis if the Chinese head of district government going live broadcast model can be replicated elsewhere is again beyond the scope of this article. What we would like to emphasize here is the following proposal:
 
-Extending the Airbnb shared accommodation model to include cooking classes, so as to upgrade the skill sets of the individuals in the business;
-Consolidate capital of individuals above to acquire farmland and venture into farming.
-PhosPay can play a significant role in this as it can revolutionize online finance, facilitating borderless transactions by Investors from literally unknown corners of the Earth.
+1. Extending the Airbnb shared accommodation model to include cooking classes, so as to upgrade the skill sets of the individuals in the business;
+
+2. Consolidate capital of individuals above to acquire farmland and venture into farming.
+
+3. PhosPay can play a significant role in this as it can revolutionize online finance, facilitating borderless transactions by Investors from literally unknown corners of the Earth.
 
 In summary, we are not advocating Marxist style land ownership reforms via armed revolutions. However, thanks to the pervasiveness of Internet and technologies, we can facilitate land acquisition by affected individuals in a truly borderless, and ID-less world, thus fundamentally improve the livelihood of population much greater than any past Marxist revolutions may address.
 
@@ -89,6 +88,8 @@ Airbnb + Cooking class. Then buy farm land. Close the loop.
 
 (Raspberry Pi etc.)
 
+
+The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
 
 Distributed data first. Then distributed processing. 
 
