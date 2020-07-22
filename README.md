@@ -21,19 +21,22 @@ We would like to introduce the terms uniweb and multiweb to distinguish these tw
 Ever since the birth of the World Wide Web, the http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established much later when uniweb (centralized) Internet traffic became more dominant, during the pre-mobile era, when users' computing power was much less compared to 2020. As computing power of user's devices (desktop computers and mobile devices) increases over the past decade, the uniweb model remained largely unchanged, although as we shall demonstrate, fundamental components to enable multiweb have matured during this time.
 
 
+## A Marxian Vision 2025
 
-2. We did not intend this article to be a Marxian thesis at the beginning. It just turned out to be one as we contemplate what benefits multiweb can bring to the world in the next 5 years.
+We did not intend this article to be a Marxian thesis at the beginning. It just turned out to be one as we contemplate what benefits multiweb can bring to the world in the next 5 years.
 
 By Marxian, we do not mean to present a Marxist solution, but a solution that is perhaps as huge as Karl Marx intended. This is possible in 2020 because we now have technologies that can enable economic well being on a global scale without needing Marxist armed revolutions, as we shall explain.
 
 Yet perhaps the technically correct term to describe our solution is the Chinese Taoist Wuwei 无为, perhaps unintentionally mapped to the Western term "anarchy", albeit an "orderly anarchy", a society that runs itself without interference by a central government. "Wuweiism" would convey the non-violent Taoist nature of this ideology, and rhymes with the subject of this article, the World Wide Web. 
 
-To be specific, through PhosPay, one of the crucial components of Phosway multiweb, we aim to reduce the income gaps between MAGA+F programmers and free software programmers.
+To be specific, through PhosPay, one of the crucial components of Phosway multiweb, we aim to reduce the income gaps between MAGA+F (Microsoft Apple Google Amazon Facebook) programmers and free software programmers.
 
 If this goal can be achieved, then the next most immediately beneficial applications would be using Phosway multiweb to help everyone to learn farming and cooking, aided by robots developed by programmers paid using PhosPay.
 
 Are these goals not clear and specific, and achievable within the next 5 years, a parliamentary term of the Westminster government?
 
+
+### The Historical Roles of Chinese Secret Societies
 
 To appreciate the significance of these goals, let us revisit Karl Marx's thesis, the historical background leading to Marx's writings, and their relevance today.
 
@@ -41,9 +44,9 @@ While most historians and economists may argue modern capitalism began with the 
 
 Our focus in this article, however, lies on the role of individual persons, in the pre-modern societies, through the industrial revolutions, into the modern world. Marxist theories speak of the proletariat and bourgeoisie. The Chinese, however, presented an alternative role model, which escaped the attention of mainstream historians and economists. 
 
-https://en.m.wikipedia.org/wiki/Laissez-faire
+- https://en.m.wikipedia.org/wiki/Laissez-faire
 
-山高皇帝远
+- 山高皇帝远 We live high up in the mountains, where the Emperor is too far to be reached.
 
 In our opinion, 3 historical events in China, shaped the characters of Chinese merchants and their roles during the birth of Capitalism:
 
@@ -55,6 +58,8 @@ In our opinion, 3 historical events in China, shaped the characters of Chinese m
 
 A thorough investigation into critical events since the 13th century is obviously beyond the scope of this article. We just wish to highlight that, Chinese secret societies, a term infamously made popular by the British colonial government, are the living proofs of how individuals may survive and thrive without government interference, the guiding philosophy behind Phosway multiweb. 
 
+
+### Land Acquisition using PhosPay for the Next Farmers' Revolution
 
 The previous section seeks to establish that Wuweiism is possible, with the so called legendary Chinese secret societies as living proofs. Non-Chinese readers may enquire about "Tin Tei Hui" or the Society of Heaven and Earth in any Chinese restaurant nearby to verify the pervasiveness of their networks, and of course their non-violent nature.  
 
@@ -77,6 +82,7 @@ Obviously a thorough analysis if the Chinese head of district government going l
 In summary, we are not advocating Marxist style land ownership reforms via armed revolutions. However, thanks to the pervasiveness of Internet and technologies, we can facilitate land acquisition by affected individuals in a truly borderless, and ID-less world, thus fundamentally improve the livelihood of population much greater than any past Marxist revolutions may address.
 
 
+<hr>
 
 Learn Chinese. Then more people can watch CCTV programs and learn first hand from China.
 
