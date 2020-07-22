@@ -1,8 +1,6 @@
-This is a perhaps modest introduction to Multiweb, arguably the biggest breakthrough since, built upon several incremental innovations ....
+# Multiweb Demo: Reddit "Uncensorable" Anonymous Comments
 
-Not included PhosCloud, BitTorrent type ssh tunnel and transient key cryptography + PhosGraph. Give Greeting with a Secret Phrase (GASP) article.
-
-The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
+This is a perhaps modest introduction to Multiweb, arguably the biggest breakthrough since the invention of the World Wide Web itself, built upon several incremental innovations.
 
 Figure 1 shows a Reddit post viewed by a user without logging in. We demostrate how the anonymous user may add a new comment, as displayed in figure 2. The user keyed in the comment in a text box (textarea) with a red 'PHOS' button at the lower right corner. The comment 'July 21 1250 le quick browne foux' is inserted as the first comment after the main post.
 
@@ -105,4 +103,3 @@ ec: echo the result on stack, i.e. 'comment' in json
 c="+urllib.parse.quote(base64.b64encode(s1.encode())) s1 is the link of the Reddit post, used as search key in preg_grep() above
 ```
 
-Compare to Twitter user retweet this Reddit post and comment &mdash; need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of universal database.
