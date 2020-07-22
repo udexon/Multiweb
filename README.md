@@ -21,6 +21,21 @@ We would like to introduce the terms uniweb and multiweb to distinguish these tw
 Ever since the birth of the World Wide Web, the http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established much later when uniweb (centralized) Internet traffic became more dominant, during the pre-mobile era, when users' computing power was much less compared to 2020. As computing power of user's devices (desktop computers and mobile devices) increases over the past decade, the uniweb model remained largely unchanged, although as we shall demonstrate, fundamental components to enable multiweb have matured during this time.
 
 
+## Multiweb Demo: Reddit "Uncensorable" Anonymous Comments
+
+We demonstrate an almost trivial example of multiweb, where anonymous comments can be added to Reddit posts, by modifying the HTML DOM locally and storing the comments on a third party graph database server. It is trivial simply because of the number of comments that can be made by one anonymous commentator. It will no longer be trivial if this mechanism can be replicated over literally billions of user devices (desktop computers and mobile devices). 
+
+The fundamental components to build a multiweb have already existed for the long time:
+
+- transient key cryptography (established by Bitcoin and blockchain related projects)
+- SSH tunnel (BitTorrent, Dark Net, Cryptocurrencies networks)
+- graph database
+
+These components just need to be integrated to create multiweb. In our own humble opinion, the most critical breakthrough lies in the application of transient key cryptography to create an ID-less graph database. This will then make SSH tunnel commercially viable, as individual users can then host their own data ON their own mobile or desktop devices, and begin to generate revenues from local businesses via PhosPay.
+
+Compare to Twitter user retweet this Reddit post and comment — need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of a universal database.
+
+
 ## A Marxian Vision 2025
 
 We did not intend this article to be a Marxian thesis at the beginning. It just turned out to be one as we contemplate what benefits multiweb can bring to the world in the next 5 years.
