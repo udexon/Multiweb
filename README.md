@@ -23,7 +23,7 @@ Ever since the birth of the World Wide Web, the http protocol itself did not man
 
 ## Multiweb Demo: Reddit "Uncensorable" Anonymous Comments
 
-We demonstrate an almost trivial example of multiweb, where anonymous comments can be added to Reddit posts, by modifying the HTML DOM locally and storing the comments on a third party graph database server. It is trivial simply because of the number of comments that can be made by one anonymous commentator. It will no longer be trivial if this mechanism can be replicated over literally billions of user devices (desktop computers and mobile devices). 
+We demonstrate an almost trivial example of multiweb, where [anonymous comments can be added to Reddit posts](https://github.com/udexon/Multiweb/blob/master/Reddit_anon_comment.md) (click [here](https://github.com/udexon/Multiweb/blob/master/Reddit_anon_comment.md)), by modifying the HTML DOM locally and storing the comments on a third party graph database server. It is trivial simply because of the number of comments that can be made by one anonymous commentator. It will no longer be trivial if this mechanism can be replicated over literally billions of user devices (desktop computers and mobile devices). 
 
 The fundamental components to build a multiweb have already existed for the long time:
 
@@ -31,9 +31,12 @@ The fundamental components to build a multiweb have already existed for the long
 - SSH tunnel (BitTorrent, Dark Net, Cryptocurrencies networks)
 - graph database
 
-These components just need to be integrated to create multiweb. In our own humble opinion, the most critical breakthrough lies in the application of transient key cryptography to create an ID-less graph database. This will then make SSH tunnel commercially viable, as individual users can then host their own data ON their own mobile or desktop devices, and begin to generate revenues from local businesses via PhosPay.
+These components just need to be integrated to create multiweb. In our own humble opinion, the most critical breakthrough lies in the application of transient key cryptography to create an ID-less graph database. This will then make SSH tunnel commercially viable, as individual users can then host their own data ON their own mobile or desktop devices, and begin to generate revenues from local businesses via PhosPay. These will be the last hurdles to overcome and make it possible to turn every user device on Earth into a cloud server, literally inverting the original definition of cloud computing.
 
-Compare to Twitter user retweet this Reddit post and comment — need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of a universal database.
+Let us compare the Reddidt anonymous comment multiweb example to a Twitter user retweeting the same Reddit post. The latter may achieve a similar effect. However, if we generalize this scenario to social network Y sharing posts from social network X, we still arrive at the deadlock where the shared posts on social network X and Y are not searchable. Phosway multiweb then have all the necessary components to make such data searchable. It is a "universal super social network" which encompasses all other social networks.
+
+The greatest excitement from the programmer's perspective is not even due to the commercial potential, but the technical breakthrough from uniweb to multiweb, which is analogous to transition from single CPU processing to true distributed parallel processing, yet again redefining the meaning of the legendary Sun Microsystems slogan, ___"the network is the computer"___.
+
 
 
 ## A Marxian Vision 2025
@@ -151,4 +154,5 @@ Then uncensorable comments become non trivial.
 
 Multiweb can even work simultaneously on multiple social media, e.g. Facebook, Reddit, Twitter etc, ALL AT THE SAME TIME, making it essentially a "super social media", or simply "one universal social media".
 
-The greatest excitement is not even due to the commercial potential, but the technical breakthrough from monoweb to multiweb, which is analogous to transition from single CPU processing to true distributed parallel processing, redefining the meaning of the legendary Sun Microsystems slogan, "the network is the computer".
+
+and comment — need a global universal (distributed) graph database. Nature of universal database -- does not matter who hosts it, it will be shared and become part of a universal database.
