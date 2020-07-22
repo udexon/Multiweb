@@ -18,9 +18,8 @@ We would like to introduce the terms uniweb and multiweb to distinguish these tw
 - Multiweb: multiple sources distributed web.
 
 
-Ever since the birth of the World Wide Web, the http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established .... when? .... Users' computing power was much less, pre mobile age, compared to 2020.
+Ever since the birth of the World Wide Web, the http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established much later when uniweb (centralized) Internet traffic became more dominant, during the pre-mobile era, when users' computing power was much less compared to 2020. As computing power of user's devices (desktop computers and mobile devices) increases over the past decade, the uniweb model remained largely unchanged, although as we shall demonstrate, fundamental components to enable multiweb have matured during this time.
 
-2020 vs. 2010
 
 
 2. We did not intend this article to be a Marxian thesis at the beginning. It just turned out to be one as we contemplate what benefits multiweb can bring to the world in the next 5 years.
@@ -87,6 +86,11 @@ Airbnb + Cooking class. Then buy farm land. Close the loop.
 :: rearrange subsequent sentences, which one comes first, second, next?
 
 (Raspberry Pi etc.)
+
+
+ .... when? .... , pre mobile age, 
+
+2020 vs. 2010
 
 
 The http protocol itself did not mandate that a web page needs to be restricted to a single source to retrieve its contents. This practice was established ....
