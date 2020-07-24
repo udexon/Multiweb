@@ -21,11 +21,13 @@ Beginning with the Reddit "uncensorable" anonymous comment example above, amongs
 
 2. An ID-less Payment System &mdash; PhosPay
 
-3. "Earn Money As You Learn" (EMYL) Tutorial Series, where trainers and trainees may earn online tips as little as USD1 using PhosPay
+3. "Earn Money As You Learn" (EMYL) Tutorial Series, where trainers and trainees may earn online tips as little as USD1 using PhosPay;
 
-4. A Multiweb Instagram Ranking Database &mdash; Collecting Instagram data via crowd source user contribution
+4. A Multiweb Instagram Ranking Database &mdash; Collecting Instagram data via crowd source user contribution;
 
 5. Social Media Online Tipping (e.g. Instagram, YouTube) etc. using PhosPay
+
+6. A Universal Uncensorable Super Social Media &mdash; based on PhosGraph Multiweb
 
 The following is a series of tutorial articles on how we can incrementally develop the modules above using Phoscript, starting from scratch:
 
