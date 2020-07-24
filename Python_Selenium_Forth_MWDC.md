@@ -17,18 +17,20 @@ From the programmer's perspective, one of the crucial benefits of our approach i
 
 Beginning with the Reddit "uncensorable" anonymous comment example above, amongst our short term and long term Phosway Multiweb A to Z goals, are the following:
 
-1. Transient Key (Cryptography) Graph Database &mdash; PhosGraph
+- A. Transient Key (Cryptography) Graph Database &mdash; PhosGraph
 
-2. An ID-less Payment System &mdash; PhosPay
+- B. An ID-less Payment System &mdash; PhosPay
 
-3. "Earn Money As You Learn" (EMYL) Tutorial Series, where trainers and trainees may earn online tips as little as USD1 using PhosPay;
+- C. "Earn Money As You Learn" (EMYL) Tutorial Series, where trainers and trainees may earn online tips as little as USD1 using PhosPay;
 
-4. A Multiweb Instagram Ranking Database &mdash; Collecting Instagram data via crowd source user contribution;
+- D. A PhosGraph Multiweb Instagram Ranking Database &mdash; Collecting Instagram data via crowd source user contribution;
 
-5. Social Media Online Tipping (e.g. Instagram, YouTube) etc. using PhosPay
+- E. Social Media Online Tipping (e.g. Instagram, YouTube) etc. using PhosPay
 
-6. A Universal Uncensorable Super Social Media &mdash; based on PhosGraph Multiweb
+- F. A Universal Uncensorable Super Social Media &mdash; based on PhosGraph Multiweb
 
 The following is a series of tutorial articles on how we can incrementally develop the modules above using Phoscript, starting from scratch:
+
+1. [A PhosGraph Multiweb Instagram Ranking Database](https://github.com/udexon/Multiweb/blob/master/Instagram_Ranking_PhosGraph_Multiweb.md) &mdash; Collecting Instagram data via crowd source user contribution;
 
 - link to ... ???
