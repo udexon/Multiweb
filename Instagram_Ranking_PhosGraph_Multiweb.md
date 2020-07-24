@@ -6,3 +6,17 @@ We demonstrate an almost trivial example of multiweb, where [anonymous comments 
 
 The same techniques may be applied to crowd source collection of Instagram data, i.e. Instagrammers' follower count, perhaps the most sought after advertising statistics globally and locally. The difficulties in gathering such data is not unique to Instagram. Such data is either public available (e.g. Instagram profile can viewed without login) or available to individuals after login. What is lacking is a universal platform or mechanism to collect such data. Out solution is packaged as PhosGraph &mdash; a transient key (cryptography) graph database &mdash; an open graph database WITHOUT using the conventional Unix style username (hence centralized) authentication.
 
+
+We will be using the same code as Figure 6 from Reddit "Uncensorable" Anonymous Comment to store the Instagram follower count via a HTTP POST web page in a remote PhosGraph server:
+
+- http://phos.epizy.com/phos/post_rc.php?r=&c=
+
+This website acts a prototype for our graph database server, hence the name PhosGraph.
+
+- Figure 6 (from Reddit "Uncensorable" Anonymous Comment)
+<img src="https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/post_phosgraph.png" width=600>
+
+The Python Selenium code for figure 6 are given in the following files:
+
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/set_json.py
+- https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/post_phosgraph.py
