@@ -78,6 +78,6 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 - Figure 7D: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_pjs:_s:` &mdash; `pjs:` detect (`preg_match_all()`) all json in string
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_all.png" width=600>
 
-- Figure 7E: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_pjs:_0_i:_jd:_followers_i:_ON_ECHO_bv:_ec:` &mdash; `0_i:` extract first json; `jd:` run `json_decode()`; `followers_i:` extract `followers` element;  `ON_ECHO_bv:` turn on `ECHO` for `ec:` (`echo`) command 
+- Figure 7E: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_pjs:_0_i:_jd:_followers_i:_ON_ECHO_bv:_ec:` &mdash; `0_i:` extract first json; `jd:` run `json_decode()`; `followers_i:` extract `followers` element;  `ON_ECHO_bv:` turn on `ECHO` parameter for `ec:` (`echo`) command 
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_decode.png" width=600>
             
