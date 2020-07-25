@@ -69,10 +69,10 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 - Figure 7A: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_s:` &mdash; `data/log_fi:` open `data/log`; `c_get:_d64:` read `$_GET['c']` parameter, decode base64; `s:` display stack (both preceding variables)
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_all.png" width=600>
 
-- Figure 7B: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_s:` &mdash; `haystack needle g:` run `preg_grep( needle, haystack )` where `needle` is `$_GET['c']` and `haystack` is `data/log`; `av:` `array_values()` convert indices of `preg_grep()` results on the stack to `0, 1, ... N-1`
+- Figure 7B: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_s:` &mdash; `haystack needle g:` run `preg_grep( needle, haystack )` where `needle` is `$_GET['c']` and `haystack` is `data/log`; `av:` `array_values()` converts indices of `preg_grep()` results on the stack to `0, 1, ... N-1`
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep.png" width=600>
 
-- Figure 7C
+- Figure 7C: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:` &mdash; `cx:` `count()` returns array size; `1_-` array size minus 1 = index of last element in the array; `i:` extract the element from array
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep_line.png" width=600>
 
 - Figure 7D
