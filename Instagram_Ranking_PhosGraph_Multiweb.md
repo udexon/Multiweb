@@ -72,12 +72,12 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 - Figure 7B: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_s:` &mdash; `haystack needle g:` run `preg_grep( needle, haystack )` where `needle` is `$_GET['c']` and `haystack` is `data/log`; `av:` `array_values()` converts indices of `preg_grep()` results on the stack to `0, 1, ... N-1`
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep.png" width=600>
 
-- Figure 7C: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:` &mdash; `cx:` `count()` returns array size; `1_-` array size minus 1 = index of last element in the array; `i:` extract the element from array
+- Figure 7C: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:` &mdash; `cx:` `count()` returns array size; `1_-` array size minus 1 = index of last element in the array; `i:` extract the element from array i.e. one line of text
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep_line.png" width=600>
 
-- Figure 7D
+- Figure 7D: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_pjs:_s:` &mdash; `pjs:` detect (`preg_match_all()`) all json in string
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_all.png" width=600>
 
-- Figure 7E
+- Figure 7E: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_g:_av:_cx:_1_-_i:_pjs:_0_i:_jd:_followers_i:_ON_ECHO_bv:_ec:` &mdash; `0_i:` extract first json; `jd:` run `json_decode()`; `followers_i:` extract `followers` element;  `ON_ECHO_bv:` turn on `ECHO` for `ec:` (`echo`) command 
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_decode.png" width=600>
             
