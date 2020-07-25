@@ -66,7 +66,7 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 
 7. Figures 7A through 7E shows HTTP GET commands using Phoscript to extract the number of followers which has been stored in step 6.
 
-- Figure 7A
+- Figure 7A: `http://phos.epizy.com/phos/get.php?r=data/log_fi:_c_get:_d64:_s:` &mdash; `data/log_fi:` open `data/log`; `c_get:_d64:` read `$_GET['c'] parameter; `s:` display stack (both preceding variables)
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_all.png" width=600>
 
 - Figure 7B
