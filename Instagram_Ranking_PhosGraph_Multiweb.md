@@ -50,19 +50,34 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 - Figure 4
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/dom_json.png" width=600>
 
+5. In figure 5, a new tab is opened to access the PhosGraph server at:
+
+- http://phos.epizy.com/phos/post_rc.php?r=&c=
+
+- Figure 5
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/tab_phos.png" width=600>
 
+
+6. In figure 6, the Python dictionary `j` is stored as a json string using HTTP POST.
+
+- Figure 6
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/post_submit.png" width=600>
 
 
+7. Figures 7A through 7E shows HTTP GET commands using Phoscript to extract the number of followers which has been stored in step 6.
+
+- Figure 7A
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_all.png" width=600>
 
+- Figure 7B
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep.png" width=600>
 
+- Figure 7C
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep_line.png" width=600>
 
-
+- Figure 7D
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_all.png" width=600>
 
+- Figure 7E
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_decode.png" width=600>
             
