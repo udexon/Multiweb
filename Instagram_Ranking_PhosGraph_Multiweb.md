@@ -21,14 +21,33 @@ The Python Selenium code for figure 6 are given in the following files:
 - https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/set_json.py
 - https://github.com/udexon/Multiweb/blob/master/reddit_anon_comment/post_phosgraph.py
 
+1. We adapt the code above to extract the number of followers for specific Instagram users:
 
+- https://www.instagram.com/jessicachastain/
+
+Interestingly, Instagram allows opening such user profile page WITHOUT user login.
+
+The right isde of figure 1 below shows the browser console, containing the DOM element for the number of followers, highlighted in light blue. The left side of figure 1 shows the corresponding web page and number of followers, also highlighted in light blue.
+
+- Figure 1
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/DOM_follwer.png" width=600>
 
+
+2. Figure 2: the outerHTML of the number of followers is copied.
+
+- Figure 2
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/copy_outerHTML.png" width=600>
 
+
+3. We skip the intermedia steps and display the final step in figure 3 &mdash; obtaining the number of followers from PhosGraph server, which can be used in further operatios.
+
+- Figure 3
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/phosgraph_get_followers.png" width=600>
 
 
+4. Figure 4 shows the continuation from step 2, where the class name in outerHTML is used in `soup.find_all()` to extract the number of followers, and store in a Python dictionary `j`.　
+
+- Figure 4
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/dom_json.png" width=600>
 
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/tab_phos.png" width=600>
