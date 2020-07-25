@@ -26,18 +26,23 @@ The Python Selenium code for figure 6 are given in the following files:
 
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/copy_outerHTML.png" width=600>
 
-<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/copy_outerHTML.png" width=600>
+<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/phosgraph_get_followers.png" width=600>
+
+
+<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/dom_json.png" width=600>
+
+<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/tab_phos.png" width=600>
+<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/post_submit.png" width=600>
+
 
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_all.png" width=600>
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_all.png" width=600>
-<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/tab_phos.png" width=600>
-<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/post_submit.png" width=600>
-<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/phosgraph_get_followers.png" width=600>
+
+
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_json_decode.png" width=600>
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_followers.png" width=600>
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep_line.png" width=600>
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/log_grep.png" width=600>
-<img src="https://github.com/udexon/Multiweb/blob/master/Instagram/dom_json.png" width=600>
 
 
             
