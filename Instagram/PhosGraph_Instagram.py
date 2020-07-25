@@ -1,3 +1,11 @@
+# parse Instagram page html
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(driver.page_source, "html.parser")
+# create json
+j = {}
+j['followers'] = soup.find_all('span', {'class' : 'g47SY'})[1]['title']
+j['ig']=driver.current_url
+
 # open PhosGraph POST page in new tab
 windows_before = driver.current_window_handle
 tab_ig = windows_before
