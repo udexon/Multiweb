@@ -45,7 +45,9 @@ The right isde of figure 1 below shows the browser console, containing the DOM e
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/phosgraph_get_followers.png" width=600>
 
 
-4. Figure 4 shows the continuation from step 2, where the class name in outerHTML is used in `soup.find_all()` to extract the number of followers, and store in a Python dictionary `j`.　
+4. Figure 4 shows the continuation from step 2, where the class name in outerHTML is used in `soup.find_all()` to extract the number of followers, and store in a Python dictionary `j`.　The Python Selenium code is avaible here:
+
+- https://github.com/udexon/Multiweb/blob/master/Instagram/PhosGraph_Instagram.py
 
 - Figure 4
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/dom_json.png" width=600>
