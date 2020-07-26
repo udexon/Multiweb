@@ -8,6 +8,12 @@ From the programmer's perspective, one of the crucial benefits of our approach i
 
 2. [A PhosGraph Multiweb Instagram Ranking Database](https://github.com/udexon/Multiweb/blob/master/Instagram_Ranking_PhosGraph_Multiweb.md) &mdash; Collecting Instagram data via crowd source user contribution
 
+3. Phoscript for Transient Key Cryptography (used in Bitcoin and blockchain related projects) 
+
+- PhosKey ID-less Messaging: [Greeting with a Secret Phrase (GASP)](https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md)
+
+- Phoscript, with its stack machine architecture and Reverse Polish Notation syntax, plays a key role in unravelling the secrets of transient key cryptography, and lays the foundation for a new paradigm in computing, with applications from graph database to a universal payment system.
+
 The names of various modules associated with Phosway have gone through some changes over time. Readers are welcome to help use revise the older tutorials to update the old terms.
 
 This page is an effort to organize all the Phosway related tutorials written in the past, so as to give readers, from non-programmers, novice to expert programmers, a quick overview and access. We shall update this page over time continuously. Readers are also welcome to help.
