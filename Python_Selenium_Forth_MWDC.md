@@ -13,7 +13,7 @@ We demonstrate an almost trivial example of multiweb, where [anonymous comments 
 
 - https://github.com/udexon/Multiweb/blob/master/Reddit_anon_comment.md
 
-From the programmer's perspective, one of the crucial benefits of our approach is the deployment of a Forth like metaprogramming script, Phoscript, which acts as a universal script to interface to various programming languages used by the front-end (JavaScript), back-end (PHP) and Python itself. This can play an important role to popularize it amongst novice programmers, as they are now spoiled of choices to choose from no less than half a dozen of "essential" programming languages, before venturing into more specialized platforms. It also helps senior programmers to create a simplified, ___HYBRID___ API, where the caller script is written in Phoscript, while the callee function is in a host (native) programming language (e.g. Java, JavaScript, PHP, Python, etc.) This will be most useful as the complexities of the applications increase, as the cognitive load to memorize more sophiticated code and data structure can be avoided, which is financially a non-trivial issue, especially when the software development team size increases.
+From the programmer's perspective, one of the crucial benefits of our approach is the deployment of a Forth like metaprogramming script, [Phoscript](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md), which acts as a universal script to interface to various programming languages used by the front-end (JavaScript), back-end (PHP) and Python itself. This can play an important role to popularize it amongst novice programmers, as they are now spoiled of choices to choose from no less than half a dozen of "essential" programming languages, before venturing into more specialized platforms. It also helps senior programmers to create a simplified, ___HYBRID___ API, where the caller script is written in Phoscript, while the callee function is in a host (native) programming language (e.g. Java, JavaScript, PHP, Python, etc.) This will be most useful as the complexities of the applications increase, as the cognitive load to memorize more sophiticated code and data structure can be avoided, which is financially a non-trivial issue, especially when the software development team size increases.
 
 Beginning with the Reddit "uncensorable" anonymous comment example above, amongst our short term and long term Phosway Multiweb A to Z goals, are the following:
 
@@ -28,6 +28,8 @@ Beginning with the Reddit "uncensorable" anonymous comment example above, amongs
 - E. Social Media Online Tipping (e.g. Instagram, YouTube) etc. using PhosPay
 
 - F. A Universal Uncensorable Super Social Media &mdash; based on PhosGraph Multiweb
+
+- G. [Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md)
 
 The following is a series of tutorial articles on how we can incrementally develop the modules above using Phoscript, starting from scratch:
 
