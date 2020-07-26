@@ -12,7 +12,7 @@ From the programmer's perspective, one of the crucial benefits of our approach i
 
 - PhosKey ID-less Messaging: [Greeting with a Secret Phrase (GASP)](https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md)
 
-- Phoscript, with its stack machine architecture and Reverse Polish Notation syntax, plays a key role in unravelling the secrets of transient key cryptography, and lays the foundation for a new paradigm in computing, with applications from graph database to a universal payment system.
+- Phoscript, with its stack machine architecture and Reverse Polish Notation syntax, plays a key role in unravelling the secrets of transient key cryptography, and lays the foundation for a new paradigm in computing &mdash; ___ID-less transactions___ &mdash; with applications from graph database to a universal payment system.
 
 4. SymForth is SymEngine with Forth wrapper, a.k.a. Phoscript &mdahs; a fast symbolic manipulation library, written in C++, now with Reverse Polish Notation support. 
 
