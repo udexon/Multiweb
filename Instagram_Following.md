@@ -1,4 +1,4 @@
-# Extracting Number of Followers of All "Following" Accounts of an Instagram Profile
+# Extracting Number of Followers of ALL "Following" Accounts of an Instagram Profile
 
 We reserve the term "User" to refer to the person logging in to Instagram. Hence the term "Profile" refers to the Instagram account that the User is currently viewing, e.g.
 
@@ -7,7 +7,7 @@ We reserve the term "User" to refer to the person logging in to Instagram. Hence
 - Figure 1
 <img src="https://github.com/udexon/Multiweb/blob/master/Instagram/following_outerHTML.png" width=600>
 
-1. Figure 1 shows the "Following" floating window on the left side and the DOM in the browser console on the right side, where the user attempts to copy the `outerHTML` of the first "following" account &mdash; `jenniferbllr`, which is show in line 2 of the following file:
+1. Figure 1 shows the "Following" floating window on the left side and the DOM in the browser console on the right side, where the user attempts to copy the `outerHTML` of the first "following" account &mdash; `jenniferbllr`, which is shown in line 2 of the following file:
 
 - https://github.com/udexon/Multiweb/blob/master/Instagram/Instagram_Following.py
 
