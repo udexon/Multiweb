@@ -14,6 +14,12 @@ From the programmer's perspective, one of the crucial benefits of our approach i
 
 - Phoscript, with its stack machine architecture and Reverse Polish Notation syntax, plays a key role in unravelling the secrets of transient key cryptography, and lays the foundation for a new paradigm in computing, with applications from graph database to a universal payment system.
 
+4. SymForth is SymEngine with Forth wrapper, a.k.a. Phoscript &mdahs; a fast symbolic manipulation library, written in C++, now with Reverse Polish Notation support. 
+
+- https://github.com/udexon/SymForth
+
+- SymForth can revolutionize teaching of mathematics &mdash; now children as young as 10 years old can learn programming AND mathematics using a ___UNIFIED SCRIPT___ &mdash; a breakthrough at least as significant as electronic calculators aiding students and professionals in numerical computations, but this time, the computation is symbolic.
+
 The names of various modules associated with Phosway have gone through some changes over time. Readers are welcome to help use revise the older tutorials to update the old terms.
 
 This page is an effort to organize all the Phosway related tutorials written in the past, so as to give readers, from non-programmers, novice to expert programmers, a quick overview and access. We shall update this page over time continuously. Readers are also welcome to help.
