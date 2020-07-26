@@ -8,7 +8,7 @@ u_f = soup.find_all('a', {'class' : 'FPmhX'})
 l_following=[]
 i=0
 while (i<len(u_f)):
-  l_followers.append(u_f[i]['href'])
+  l_following.append(u_f[i]['href'])
   i += 1
 
 with open('Instagram/following_jchastain.json', 'w') as outfile:
