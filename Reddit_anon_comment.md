@@ -56,7 +56,7 @@ The Python Selenium code for figure 6 are given in the following files:
 
 3. Figure 7 shows a portion of the text file used to store PhosGraph, by executing the following command as a HTTP GET request:
 
-- http://phos.epizy.com/phos/get.php?r=data/log_fgc:_s:
+- `http://phos.epizy.com/phos/get.php?r=data/log_fgc:_s:`
 
 The GET parameter `r=data/log_fgc:_s:` is a Phoscript command, derived from the Forth programming language, in Reverse Polish Notation. It is parsed as underscore delimited token, resulting in `data/log fgc: s:`. 
 
