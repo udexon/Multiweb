@@ -16,15 +16,14 @@ S[2].append(S[0])
 S[0].append(S[3])
 S[3].append(S[4])
 S[2].className='chat-popup'
-"chat-popup"
+// "chat-popup"
 S[2].style.display='block'
 S[0].append(S[1])
 S[0].className='form-container'
 S[1].className='form-container textarea'
-"form-container textarea"
+// "form-container textarea"
 S[3].className='form-container btn'
 S[3].style.backgroundColor='red'
 S[3].onclick=function(){alert();}
 S[0].style.backgroundColor='grey'
 window.onbeforeunload = function(){ return 'Reload?';} // prevent page reload
-
